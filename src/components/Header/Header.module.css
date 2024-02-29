@@ -1,0 +1,15 @@
+.inline{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+li {
+    list-style-type: none;    
+}
+a{
+    text-decoration: none;
+}
+.inline input[type = text ] {
+    width: 700px;
+
+}
