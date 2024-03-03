@@ -1,6 +1,93 @@
 .displayInline {
+    /* background-colo#94c0570AF; */
+    background-color: #3140AF;
+    color: white;
     display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    
 }
-li {
+.displayInline div li{
+    margin-top: 20px;
+
+}
+li a {
     list-style-type: none;
+}
+.subscribeBlock { 
+    background-color: #CCEBFF;
+    text-align: center;
+
+}
+.etsySlogan {
+    background-color: #3B67D9;
+    color: white;
+    text-align: center; 
+    height: 100px;
+
+    
+}
+.paraDashed {
+    text-decoration:dashed;
+} 
+.logoMenuBox{
+    background-color: aqua;
+    display:flex;
+    height: 350px;
+
+}
+.logoMenuBox li a{
+    color: white;
+
+
+}
+
+.logoBlock{
+    background-color: #122868;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
+}
+#footerMenu{
+    width: 70%;
+}
+.etsyIndia{
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+
+}
+a{
+    color: white;
+    margin: 0px 5px;
+}
+.copyRight {
+
+}
+.btnLang{
+    padding: 15px 30px;
+    background-color: #222222;
+    color: white;
+    border-radius: 30px;
+    border: none;
+
+}
+.btnLang:hover {
+    background: #3F3F3F;
+
+}
+.downloadBtn{
+    padding: 15px 30px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.downloadBtn{
+    background-color: #3140AF;
 }

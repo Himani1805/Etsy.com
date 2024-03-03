@@ -1,0 +1,24 @@
+.mainDiv{
+    background-color: #FFFBD8;
+    padding: 0% 20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.EtsyIndia{
+    text-align: center;
+
+}
+.EtsyIndia a{
+    color: gray;
+}
+h3 {
+    color: blue;
+}
+.helpCentre{
+    text-align: center;
+}
+.helpCentre button{
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 15px 30px;
+    background-color: #FFFBD8;
+}

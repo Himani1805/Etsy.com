@@ -1,0 +1,66 @@
+.dcContainer{
+
+
+}
+.bgGreen {
+    color: white;
+    background-color: #024927;
+}
+.categoriesBlock{
+display:flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+/* .categoriesBlock img{
+    width: 128px;
+    border-radius: 100%;
+} */
+.recentlyBlock{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.recentlyBlock:nth-child(2){
+/* border:5px solid red */
+}
+.viewedBlock :nth-child(2){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+.allCategoriesBlock:nth-child(2){
+
+display: flex;
+
+}
+.popularGift:nth-child(2){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.discoverIndia{
+
+}
+.freshBlog > div{
+display: flex;
+}
+.etsyIndia > div{
+
+}
+.img{
+    border: 5px solid red;
+    width: 180px ;
+    
+}
+
