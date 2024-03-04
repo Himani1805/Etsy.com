@@ -1,0 +1,23 @@
+.freshBlogBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogCard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.blogCard div {
+    border-radius: 20px;
+    width: 25%;
+    padding: 50px 20px;
+    text-wrap: wrap;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img {
+    width: 180px;
+}

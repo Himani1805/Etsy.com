@@ -1,0 +1,100 @@
+.dcContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.bgGreen {
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+    color: white;
+    background-color: #024927;
+    position: relative;
+}
+
+.bgGreen h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.categoriesBlock {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 100;
+
+}
+
+/* .categoriesBlock img{
+    width: 128px;
+    border-radius: 100%;
+} */
+.recentlyBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 20px;
+    padding: 3%;
+
+
+}
+
+.recentlyBlock div {
+    /* width: 20%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 1.3em;
+}
+
+.recentlyBlock div img {
+    width: 18%;
+}
+
+.viewedBlock :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+
+.allCategoriesBlock:nth-child(2) {
+
+    display: flex;
+
+}
+
+.popularGift:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.discoverIndia {}
+
+.freshBlog>div {
+    display: flex;
+}
+
+.etsyIndia>div {}
+
+.categoriesBlock div img {
+    /* border: 5px solid red; */
+    width: 120px;
+    border-radius: 100%;
+
+}
