@@ -1,11 +1,51 @@
+*{
+    font-family: 'YourChosenFont', sans-serif;
+}
+.subscribeBlock{
+    height:110px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    line-height: 50px;
+}
+.subscribeBlock p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.subscribeBlock input{
+    padding: 15px;
+    width: 450px;
+    /* line-height: 45px; */
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+.subscribeBlock span{
+    margin-left: -100px;
+    font-weight: bold;   
+}
+.subscribeBlock span:hover{
+    height: 100%;
+    color: white;
+    background-color: black;
+    padding: 0%;
+}
+
+#footerMenu h3{
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+}
 .displayInline {
-    /* background-colo#94c0570AF; */
     background-color: #3140AF;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:left;
     width: 70%;
-    
+    font-size: smaller;
+    gap: 100px;
+    padding: 30px;
+    /* height: ; */
 }
 .displayInline div li{
     margin-top: 20px;
@@ -20,12 +60,35 @@ li a {
 
 }
 .etsySlogan {
+    width:100%;
     background-color: #3B67D9;
     color: white;
+    display: flex;
     text-align: center; 
-    height: 100px;
-
-    
+    align-items: center;
+    justify-content: center;
+    padding:25px 0px ;  
+    font-size: 16px;
+    color: #333;
+    gap: 10px;
+}
+.shortText{
+    color: white;
+    text-decoration: dashed;
+    /* text-decoration-line: underline ; */
+}
+.fullText {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 250px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
 }
 .paraDashed {
     text-decoration:dashed;
@@ -33,7 +96,9 @@ li a {
 .logoMenuBox{
     background-color: aqua;
     display:flex;
-    height: 350px;
+    height: 330px;
+    /* line-height: 10px; */
+
 
 }
 .logoMenuBox li a{
@@ -41,41 +106,70 @@ li a {
 
 
 }
+.empty{
+    background-color:#3140AF;
+    width: 60px;
+}
 
 .logoBlock{
     background-color: #122868;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 35%;
+
+}
+.logoBlock img{
+    color:white;
+    background-color: orangered;
+    margin: 20px;
+    padding: 25px 10px;
+    border-radius: 20%;
+    /* filter: invert(8%) sepia(100%) saturate(6481%) hue-rotate(246deg) brightness(102%) contrast(143%); */
 
 }
 #footerMenu{
-    width: 70%;
+    width: 65%;
 }
 .etsyIndia{
     background-color: #222222;
     color: white;
     display: flex;
-    justify-content: space-between;
-    height: 100px;
+    justify-content:space-between;
+    height: 80px;
     align-items: center;
-
+    gap: 80px;
 }
 a{
     color: white;
     margin: 0px 5px;
 }
-.copyRight {
+.copyRight{
+    font-size: smaller;
+    margin-right: 100px; 
 
 }
+.copyRight a{
+    text-decoration: underline;
+}
+.social_Logo img{
+    padding-top: 25px;
+    margin-right: 15px;
+}
+
 .btnLang{
     padding: 15px 30px;
     background-color: #222222;
     color: white;
     border-radius: 30px;
     border: none;
+    margin-left: 100px; 
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-size: smaller;
 
 }
 .btnLang:hover {
@@ -87,7 +181,17 @@ a{
     color: white;
     border-radius: 30px;
     border: none;
+    background-color: #3140AF;
+    font-weight: 600;
+    font-size:medium;
+
 }
 .downloadBtn{
-    background-color: #3140AF;
+
+}
+
+.flagIcon {
+  width: 20px; 
+  height: 20px;
+  object-fit: cover;
 }

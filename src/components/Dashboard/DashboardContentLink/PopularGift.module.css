@@ -1,13 +1,23 @@
+.popularGiftBlock{
+    width:100%;
+    border:20x solid red
+
+}
+.popularGiftBlock div{
+
+}
 .giftLink {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    border:20x solid rgb(196, 39, 125)
+
 }
 
 .giftLink div {
     width: 18%;
     border-radius: 20px;
-    border: 1px solid gray;
+    border: 1px solid rgb(128, 128, 128);
 }
 
 .img {

@@ -2,7 +2,7 @@ import React from 'react'
 import style from './Viewed.module.css'
 export default function Viewed() {
     return (
-        <div>
+        <div id={style.recentlyViewed}>
             <div>
                 <h3> Because you viewed </h3>
                 <img src="https://i.etsystatic.com/34040842/r/il/813dec/5617810051/il_75x75.5617810051_e201.jpg" alt="" />

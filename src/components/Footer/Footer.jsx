@@ -1,22 +1,36 @@
 import React from 'react'
+import { useState } from "react";
 import style from './Footer.module.css'
+import styles from "./Footer.module.css";
+
+// import { TfiWorld } from "react-icons/tfi";
+
 export default function Footer() {
   return (
-    <div > 
+    <div >
       <div className={style.subscribeBlock}>
         <p>Yes! Send me exclusive offers, unique gift ideas, and personalised tips for shopping and selling on Etsy.</p>
-        <input type="email" placeholder='Enter your email' />
-        <button>Subscribe</button>
+        <input type="email" placeholder='Enter your email'/>
+        <span>Subscribe</span>
 
       </div>
       <div className={style.etsySlogan} >
-       Etsy’s 100% renewable electricity commitment   includes the electricity used by the data centres that host Etsy.com, the Sell on Etsy app, and the Etsy app, as well as the electricity that powers Etsy’s global offices and employees working remotely from home in the US.
+        {/* <TfiWorld /> */}
+        <img src='public\Logo_Esty\world_hand_logo.svg' alt='world logo' width={36}/>
+        <p className={styles.shortText}>Etsy is powered by 100% renewable electricity.</p>
+        <span className={styles.fullText}>
+          Etsy’s 100% renewable electricity commitment includes the electricity
+          used by the data centres that host Etsy.com, the Sell on Etsy app, and
+          the Etsy app, as well as the electricity that powers Etsy’s global
+          offices and employees working remotely from home in the US.
+        </span>
       </div>
 
       <div >
         <div className={style.logoMenuBox}>
+          <div className={style.empty}></div>
           <div className={style.logoBlock}>
-            <img src="https://etsy.app.link/d7nDUdp49V" alt="" />
+            <img src="public\Logo_Esty\etsy.svg" alt="" width={56} />
             <button className={style.downloadBtn}>Download the Etsy App</button>
           </div>
           <div id={style.footerMenu} className={style.displayInline}>
@@ -49,26 +63,27 @@ export default function Footer() {
               <li><a href="">Legal imprint</a></li>
 
             </div>
-            <div>
+            <div className={style.social_Logo}>
               <h3>Help</h3>
               <li><a href="">Help Centre</a></li>
               <li><a href="">Privacy settings</a></li>
-              <img src="https://www.etsy.com/in-en/social-tracking?network=instagram" alt="" />
-              <img src="https://www.etsy.com/in-en/social-tracking?network=facebook" alt="" />
-              <img src="https://www.etsy.com/in-en/social-tracking?network=pinterest" alt="" />
-              <img src="https://www.etsy.com/in-en/social-tracking?network=twitter" alt="" />
-              <img src="https://www.etsy.com/in-en/social-tracking?network=youtube" alt="" />
+              <img src="public\Logo_Esty\insta.svg" alt="" width={28} />
+              <img src="public\Logo_Esty\facebook.svg" alt="" width={28} />
+              <img src="public\Logo_Esty\pinterest.svg" alt="" width={28} />
+              <img src="public\Logo_Esty\youtube.svg" alt="" width={28} />
             </div>
           </div>
         </div>
         <div className={style.etsyIndia}>
           <div>
-            <button className={style.btnLang}> <img src=" https://cdn1.iconfinder.com/data/icons/asia-country-flags/" alt=""  /> <b>India | English (IN) | ₹(INR) </b>
+            <button className={style.btnLang}>
+              <img src="https://cdn-icons-png.flaticon.com/128/9906/9906480.png" alt="India Flag" className={styles.flagIcon}
+              /> <pre> <b >  India   |   English (IN)   |   ₹(INR) </b> </pre>
             </button>
 
           </div>
-          <div className= {style.copyRight}>
-            <span> © 2024 Etsy, Inc. </span>
+          <div className={style.copyRight}>
+            <span> © 2025 Etsy, Inc. </span>
             <a href="">Terms of Use</a>
             <a href="">Privacy</a>
             <a href="">Intrest-based ads</a>

@@ -24,10 +24,10 @@ export default function PopularGift() {
                     <img className={style.img} src="https://i.etsystatic.com/28532188/r/il/8ee76f/3761891932/il_340x270.3761891932_feh5.jpg" alt="" />
                     <h3>Personalised gift ideas</h3>
                 </div>
-                <div>
+                {/* <div>
                     <img className={style.img} src="https://i.etsystatic.com/6841042/r/il/7fb2c1/3884869020/il_340x270.3884869020_b90j.jpg" alt="" />
                     <h3>Wedding gifts</h3>
-                </div>
+                </div> */}
             </div>
         </div>
     )

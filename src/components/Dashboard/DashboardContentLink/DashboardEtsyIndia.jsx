@@ -5,7 +5,7 @@ export default function DashboardEtsyIndia() {
     <div>
         <div className={style.mainDiv}>    
             <div className={style.EtsyIndia}> 
-            <h1> What is Etsy India? </h1>
+            <p> What is Etsy India? </p>
             <a href="">Read our wonderfully weird story</a>
             </div>
             <div>
@@ -76,7 +76,7 @@ export default function DashboardEtsyIndia() {
             </div>
             <div className={style.helpCentre}>
                 <h2> Have a question? Well, we’ve got some answers. </h2>
-                <button><b>Go to Help Centre</b></button>
+                <button>Go to Help Centre</button>
             </div>
         </div>
     </div>
