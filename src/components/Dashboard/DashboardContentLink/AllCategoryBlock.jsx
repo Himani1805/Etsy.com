@@ -6,8 +6,8 @@ export default function AllCategoryBlock() {
             {/* <div>
                 
             </div> */}
-            <div className={style.categoryBlock}>
-                <h1>Shop by Category</h1>
+            <h1>Shop by Category</h1>
+            <div className={style.categoryBlock}>                
                 <div>
                     <img className={style.img} src="https://i.etsystatic.com/7770785/r/il/c2ca12/4170703056/il_680x540.4170703056_6bd5.jpg" alt="" />
                     <h3>Jewellery</h3>

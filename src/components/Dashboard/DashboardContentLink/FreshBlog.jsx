@@ -3,9 +3,7 @@ import style from './FreshBlog.module.css'
 export default function FreshBlog() {
     return (
         <div className={style.freshBlogBlock}>
-            <div className={style.freshBlog}>
-                <h1>Fresh from the blog </h1>
-            </div>
+            <h1>Fresh from the blog </h1>
             <div className={style.blogCard}>
                 <div className={style.blogItem}>
                     <div className={style.fresh_Img}>
@@ -21,9 +19,9 @@ export default function FreshBlog() {
                 </div>
                 <div className={style.blogItem}>
                     <div className={style.fresh_Img}>
-                        <img  src="https://i.etsystatic.com/inv/1b86b2/5514321927/inv_425x340.5514321927_50cniifw.jpg?version=0" alt="" />    
-                        </div>
-                        <div className={style.fresh_Guide}>
+                        <img src="https://i.etsystatic.com/inv/1b86b2/5514321927/inv_425x340.5514321927_50cniifw.jpg?version=0" alt="" />
+                    </div>
+                    <div className={style.fresh_Guide}>
                         <p>Shopping Guides</p>
                         <h2>14 Beautiful Bags That Express Your Unique Style</h2>
                         <p>

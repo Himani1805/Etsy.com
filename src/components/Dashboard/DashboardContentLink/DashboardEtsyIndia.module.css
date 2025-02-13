@@ -1,46 +1,53 @@
-.mainDiv{
+.mainDiv {
     background-color: #FFFBD8;
     padding: 4% 20% 5% 20%;
-    font-family:'sans-serif';
-    display: flex;  
+    font-family: 'sans-serif';
+    display: flex;
     flex-direction: column;
     gap: 30px;
 
     /* padding: 4% 20%; */
 
 }
-.mainDiv div{
+
+.mainDiv div {
     display: flex;
     flex-direction: column;
     gap: 20px;
     word-spacing: 3px;
     line-height: 30px;
 }
-.EtsyIndia{
+
+.EtsyIndia {
     text-align: center;
 
 }
-.EtsyIndia a{
+
+.EtsyIndia a {
     color: gray;
     text-decoration: underline;
 }
-.EtsyIndia p{
+
+.EtsyIndia p {
     font-size: 50px;
     margin: 0%;
     padding: 0%;
 }
+
 div h3 {
     color: blue;
     font-size: 20px;
 }
-.helpCentre{
+
+.helpCentre {
     text-align: center;
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
-.helpCentre button{
+
+.helpCentre button {
     width: 200px;
     border-radius: 50px;
     border: 2px solid black;
