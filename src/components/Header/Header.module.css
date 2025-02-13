@@ -6,11 +6,18 @@
     font-size: small;
     font-weight: 600;
 
+
+    /* padding: 10px;  */
+
+
 }
 .inline{
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
+
+    /* align-items: center; */
+
 
 }
 li {
@@ -18,12 +25,100 @@ li {
 }
 a{
     text-decoration: none;
+
+    /* color: black; */
+
 }
-.inline input[type = text ] {
-    width: 750px;
-    padding: 15px 15px;
+.inline input[type = "text" ] {
+    width: 50%;
+    padding: 15px;
     border: 2px solid black;
     border-radius: 50px;
     font-size: 16px;
 
 }
+
+
+
+/* Media Queries */
+
+/* Mobile: max-width 480px */
+@media screen and (max-width: 480px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .footerWrapper{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .inline input[type = "text" ] {
+        /* width: 50%;
+        padding: 3px;
+        text-align: center;
+        font-size: 12px; */
+        display: none;
+
+    }
+
+    .inline {
+        flex-direction: column;
+        gap: 10px;
+    }   
+}
+/* Tablet: max-width 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 20px;
+    }
+    .inline {
+        gap: 20px;
+    }
+    .inline input[type="text"] {
+        width: 70%;
+        padding: 12px;
+        font-size: 14px;
+    }
+  }
+  
+  /* Small Laptops: max-width 1024px */
+  @media screen and (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .inline {
+        gap: 30px;
+    }
+    .inline input[type="text"] {
+        width: 60%;
+        padding: 14px;
+        font-size: 15px;
+    }
+  }
+  
+  /* Larger Screens: min-width 1025px */
+  @media screen and (min-width: 1025px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .inline {
+        gap: 40px;
+    }
+    .inline input[type="text"] {
+        width: 50%;
+        padding: 15px;
+        font-size: 16px;
+    }
+  }
+  

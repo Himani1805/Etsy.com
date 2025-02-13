@@ -7,7 +7,7 @@ import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <div >
+    <div className={style.footerWrapper} >
       <div className={style.subscribeBlock}>
         <p>Yes! Send me exclusive offers, unique gift ideas, and personalised tips for shopping and selling on Etsy.</p>
         <input type="email" placeholder='Enter your email'/>
@@ -26,14 +26,16 @@ export default function Footer() {
         </span>
       </div>
 
-      <div >
+      <div className={style.menuEtsyDiv}>
         <div className={style.logoMenuBox}>
-          <div className={style.empty}></div>
+          {/* <div className={style.empty}>
+
+          </div> */}
           <div className={style.logoBlock}>
             <img src="public\Logo_Esty\etsy.svg" alt="" width={56} />
             <button className={style.downloadBtn}>Download the Etsy App</button>
           </div>
-          <div id={style.footerMenu} className={style.displayInline}>
+          <div class={style.footerMenu} className={style.displayInline}>
             <div>
               <h3>Shop</h3>
               <li><a href="">Gift cards</a></li>

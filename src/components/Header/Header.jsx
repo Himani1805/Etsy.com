@@ -17,7 +17,11 @@ export default function Header() {
         <li><a href="">Faviourtes</a></li>
         <li><a href="">Cart</a></li>
       </div>
-
     </div>
   )
 }
+
+
+
+
+

@@ -1,4 +1,5 @@
 import React from 'react'
+import React from 'src\components\Dashboard\DashboardContentLink\FreshBlogBlock.module.css'
 
 export default function FreshBlogBlock() {
     return (

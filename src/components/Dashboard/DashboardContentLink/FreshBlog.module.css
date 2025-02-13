@@ -5,6 +5,9 @@
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+
+    /* padding: 20px; */
+
 }
 .freshBlog{
     width:94%;
@@ -16,9 +19,12 @@
     justify-content: center;
     gap: 20px;
     text-align: center;
+
+    /* flex-wrap: wrap; */
+
 }
 .blogCard > div{
-    width:30%;
+    /* width:30%; */
     border-radius: 10px;
     border: 1px solid gray;
 }
@@ -26,6 +32,19 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: none;
 }
+/* .blogItem {
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s;
+}
+
+.blogItem:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    transform: translateY(-5px);
+} */
+
 .fresh_Img img{
     width: 100%;
     border-top-right-radius:  10px;
@@ -35,8 +54,113 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin: 7px 15px;
+    /* margin: 7px 15px; */
     text-align: left;
 
+    /* gap: 10px;
+    margin: 15px; */
+
+
 }
+
+
+/* Media Queries */
+
+/* Mobile: max 480px */
+
+@media screen and (max-width: 480px) {
+    .blogCard{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogCard div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+    .blogItem {
+        width: 100%;
+    }
+    .fresh_Img img{
+        width: 100px;
+        border-top-right-radius:  10px;
+        border-top-left-radius:  10px;   
+    }
+    
+
+    .fresh_Guide h2 {
+        /* font-size: 18px; */
+    }
+
+    .fresh_Guide p {
+        /* font-size: 14px; */
+    }
+
+}
+
+/* Tablet: max 768px */
+@media screen and (max-width: 768px) {
+    .blogCard {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .blogItem {
+        width: 90%;
+    }
+
+    .freshGuide h2 {
+        font-size: 20px;
+    }
+}
+
+/* Small Laptops: max 1024px */
+@media screen and (max-width: 1024px) {
+    .blogCard {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blogItem {
+        width: 45%;
+    }
+}
+
+/* Large Screens: min 1025px */
+@media screen and (min-width: 1025px) {
+    .blogCard {
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .blogItem {
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

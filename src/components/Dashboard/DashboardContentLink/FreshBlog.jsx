@@ -7,7 +7,7 @@ export default function FreshBlog() {
                 <h1>Fresh from the blog </h1>
             </div>
             <div className={style.blogCard}>
-                <div>
+                <div className={style.blogItem}>
                     <div className={style.fresh_Img}>
                         <img src="https://i.etsystatic.com/inv/73f1ea/5310016542/inv_620x495.5310016542_ukkxc6qi.jpg?version=0" alt="" />
                     </div>
@@ -19,7 +19,7 @@ export default function FreshBlog() {
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className={style.blogItem}>
                     <div className={style.fresh_Img}>
                         <img  src="https://i.etsystatic.com/inv/1b86b2/5514321927/inv_425x340.5514321927_50cniifw.jpg?version=0" alt="" />    
                         </div>
@@ -31,7 +31,7 @@ export default function FreshBlog() {
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className={style.blogItem}>
                     <div className={style.fresh_Img}>
                         <img src="https://i.etsystatic.com/inv/0c0724/5507381345/inv_425x340.5507381345_8imomvyj.jpg?version=0" alt="" />
                     </div>

@@ -2,11 +2,12 @@ import React from 'react'
 import style from './AllCategoryBlock.module.css'
 export default function AllCategoryBlock() {
     return (
-        <div>
-            <div>
-                <h1>Shop by Category</h1>
-            </div>
+        <div id={style.shopByCategory}>
+            {/* <div>
+                
+            </div> */}
             <div className={style.categoryBlock}>
+                <h1>Shop by Category</h1>
                 <div>
                     <img className={style.img} src="https://i.etsystatic.com/7770785/r/il/c2ca12/4170703056/il_680x540.4170703056_6bd5.jpg" alt="" />
                     <h3>Jewellery</h3>
@@ -77,6 +78,7 @@ export default function AllCategoryBlock() {
                     <h3>Gifts</h3>
                 </div>
             </div>
+
         </div>
     )
 }

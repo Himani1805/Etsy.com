@@ -2,11 +2,14 @@
     font-family: 'YourChosenFont', sans-serif;
 }
 .subscribeBlock{
-    height:110px;
+    /* height:110px; */
     align-items: center;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
     line-height: 50px;
+
+    /* background-color: #CCEBFF; */
+
 }
 .subscribeBlock p{
     font-size: 16px;
@@ -14,24 +17,35 @@
 }
 .subscribeBlock input{
     padding: 15px;
-    width: 450px;
+    width: 30%;
     /* line-height: 45px; */
     font-size: 16px;
     border: 1px solid gray;
     border-radius: 30px;
+
+    /* padding: 10px; */
+
 }
 .subscribeBlock span{
     margin-left: -100px;
-    font-weight: bold;   
+    font-weight: bold;  
+    
+    /* margin-left: -90px; 
+        padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+
+    */
+
 }
 .subscribeBlock span:hover{
     height: 100%;
     color: white;
     background-color: black;
     padding: 0%;
-}
 
-#footerMenu h3{
+}
+.footerMenu h3{
     color: white;
     font-size: 16px;
     margin-left: 5px;
@@ -44,7 +58,7 @@
     width: 70%;
     font-size: smaller;
     gap: 100px;
-    padding: 30px;
+    /* padding: 30px; */
     /* height: ; */
 }
 .displayInline div li{
@@ -94,9 +108,9 @@ li a {
     text-decoration:dashed;
 } 
 .logoMenuBox{
-    background-color: aqua;
+    /* background-color: aqua; */
     display:flex;
-    height: 330px;
+    /* height: 330px; */
     /* line-height: 10px; */
 
 
@@ -133,14 +147,44 @@ li a {
 #footerMenu{
     width: 65%;
 }
+.shortText {
+    color: white;
+    text-decoration: dashed;
+}
+
+/* .footerMenu {
+    background-color: #3140AF;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: smaller;
+}
+
+.footerMenu div li {
+    margin-top: 15px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+} */
+
 .etsyIndia{
     background-color: #222222;
     color: white;
     display: flex;
     justify-content:space-between;
-    height: 80px;
+    /* height: 80px; */
     align-items: center;
     gap: 80px;
+
+    /* padding: 20px; */
+
+}
+.footerMenu h3{
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
 }
 a{
     color: white;
@@ -151,12 +195,19 @@ a{
     margin-right: 100px; 
 
 }
+
 .copyRight a{
     text-decoration: underline;
+    color: white;
+    margin: 0px 5px;
 }
 .social_Logo img{
     padding-top: 25px;
     margin-right: 15px;
+
+    /* padding-top: 10px;
+    margin-right: 10px; */
+
 }
 
 .btnLang{
@@ -170,6 +221,10 @@ a{
     display: flex;
     gap: 10px;
     font-size: smaller;
+
+    /*     padding: 10px 20px;
+    
+    */
 
 }
 .btnLang:hover {
@@ -185,8 +240,8 @@ a{
     font-weight: 600;
     font-size:medium;
 
-}
-.downloadBtn{
+    /* padding: 10px 20px; */
+
 
 }
 
@@ -195,3 +250,130 @@ a{
   height: 20px;
   object-fit: cover;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+    .footerWrapper{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .subscribeBlock , .etsySlogan, .menuEtsyDiv, .logoMenuBox, .displayInline{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    #footerMenu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .logoBlock{
+        width: 100%;
+    }
+    .copyRight a{
+        color: white;
+        margin: 0px 5px;
+    }
+    /* div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    div div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+    } */
+    .subscribeBlock { 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .etsyIndia{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+
+    /* .footerWrapper,
+    .subscribeBlock,
+    .etsySlogan,
+    .footerMenu,
+    .etsyIndia {
+        flex-direction: column;
+        text-align: center;
+    } */
+
+
+}
+@media screen and (max-width: 768px) {
+    .footerMenu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footerMenu {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .footerMenu {
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
