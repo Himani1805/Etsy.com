@@ -5,29 +5,17 @@
     align-items: center;
     font-size: small;
     font-weight: 600;
-
-
-    /* padding: 10px;  */
-
-
 }
 .inline{
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
-
-    /* align-items: center; */
-
-
 }
 li {
     list-style-type: none;    
 }
 a{
     text-decoration: none;
-
-    /* color: black; */
-
 }
 .inline input[type = "text" ] {
     width: 50%;
@@ -35,7 +23,6 @@ a{
     border: 2px solid black;
     border-radius: 50px;
     font-size: 16px;
-
 }
 
 
@@ -64,9 +51,7 @@ a{
         text-align: center;
         font-size: 12px; */
         display: none;
-
     }
-
     .inline {
         flex-direction: column;
         gap: 10px;

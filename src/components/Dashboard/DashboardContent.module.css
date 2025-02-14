@@ -5,21 +5,14 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
-    /* gap: 20px;
-    padding: 20px; */
-
 }
-
 .dcContainerFirst {
     display: block;
 }
-
 .dcContainerSecond {
     /* margin-top: 480px; */
     display: block;
 }
-
 .bgGreen {
     margin: 0px;
     padding: 0px;
@@ -27,22 +20,17 @@
     /* color: white; */
     /* background-color: #024927; */
     /* position: relative; */
-
     /* display: flex;
     align-items: center;
     justify-content: center;
     text-align: center; */
-
 }
-
 .bgGreen h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
     text-wrap: wrap;
     text-align: center;
-
 }
-
 .categoriesBlock {
     display: flex;
     gap: 40px;
@@ -50,28 +38,25 @@
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-
-
 }
-
 /* .categoriesBlock div {
     border: 2px solid green;
 } */
-
 .categoriesBlock div {
     width: 10%;
-    border: 2px solid lime;
+    /* border: 2px solid lime; */
     display: inline-block;
-
     align-items: center;
 }
-
 .categoriesBlock img {
     width: 128px;
     height: 128px;
     border-radius: 50%;
 }
-
+.categoriesBlock div:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* border: 50px; */
+}
 .recentlyBlock:first-child {
     width: 100%;
     /* display: flex;
@@ -81,12 +66,10 @@
     gap: 20px; */
     /* padding: 3%; */
 }
-
 .recentlyBlock h2 {
     display: flex;
     flex-direction: column;
 }
-
 .recentlyBlock div {
     /* width: 20%; */
     display: flex;
@@ -94,15 +77,16 @@
     gap: 20px;
     font-size: 1.3em;
     justify-content: left;
-    /* border: 10px solid red; */
 }
-
-
 .recentlyBlock div img {
-    /* border: 10px solid rgb(0, 255, 76); */
-
-    /* border-radius: 10px; */
-
+    border-radius: 8px;
+    /* transition: box-shadow 0.3s ease-in-out; */
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+    border: 5px solid transparent;
+}
+.recentlyBlock div img:hover {
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+    transform: scale(1.05);   
 }
 
 .viewedBlock :nth-child(2) {
@@ -110,39 +94,26 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-
-
-
 }
-
 .allCategoriesBlock:nth-child(2) {
-
     display: flex;
-
 }
-
 .popularGift:nth-child(2) {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
-
 }
-
 .discoverIndia {}
 
 .freshBlog>div {
     display: flex;
 }
-
 .etsyIndia>div {}
-
 .categoriesBlock div img {
     /* border: 5px solid red; */
     width: 120px;
     border-radius: 100%;
-
 }
 
 
@@ -155,24 +126,32 @@
         gap: 10px;
         flex-wrap: wrap;
     }
-
     .dcContainerFirst {
 
         /* padding-bottom: 450px; */
         /* border: 5px solid blueviolet; */
     }
-
-    .dcContainerSecond {
-
-
-        /* border: 5px solid rgb(226, 150, 43); */
+    .bgGreen h2 {
+        margin: 20px 0px;
     }
-
-    .categoriesBlock {
-        flex-direction: column;
-        align-items: center;
+    .categoriesBlock div {
+        width: 100%;
     }
-
+    .categoriesBlock div:hover{
+        width: 40%;
+    }
+    .recentlyBlock h2 {
+        font-size: x-large;
+        text-align: center;
+    }
+    .recentlyBlock div {
+        width: 100%;
+        display: inline;
+    }
+    .recentlyBlock div img {
+        width: 40%;
+        margin: 20px 120px;
+    }
     .footerWrapper {
         width: 100%;
         display: flex;
@@ -180,41 +159,29 @@
         gap: 10px;
         flex-wrap: wrap;
     }
-
-    .recentlyBlock div {
-        width: 100%;
-        display: inline;
-        border: 2px solid green;
-    }
-
-    .recentlyBlock div img {
-        width: 40%;
-        margin: 20px;
-        border: 2px solid orange;
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap; */
-
-    }
-
-    .recentlyBlock h2 {
-        font-size: small;
-        border: 3px solid blue;
+    .dcContainerSecond {
+        /* border: 5px solid rgb(226, 150, 43); */
     }
 
 }
 
 @media screen and (max-width: 768px) {
-    .categoriesBlock {}
-
+    .bgGreen h2 {
+        margin: 20px 0px;
+    }
+    .categoriesBlock div {
+        width: 100%;
+    }
+    .recentlyBlock h2 {
+        font-size: x-large;
+    }
     .recentlyBlock div {
         width: 100%;
         display: flex;
         justify-content: space-around;
         gap: 20px;
         flex-wrap: wrap;
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
 
     .recentlyBlock div img {
@@ -223,6 +190,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .bgGreen h2 {
+        margin: 20px 0px;
+    }
+    .categoriesBlock div {
+        width: 20%;
+    }
     .categoriesBlock {
         gap: 20px;
     }
@@ -233,6 +206,9 @@
 }
 
 @media screen and (min-width: 1025px) {
+    .bgGreen h2 {
+        margin: 20px 0px;
+    }
     .categoriesBlock {
         justify-content: space-between;
     }

@@ -56,15 +56,9 @@ export default function DashboardContent() {
             <img className={style.recentlyViewed} src="https://i.etsystatic.com/34040842/r/il/8593cc/5617816571/il_340x270.5617816571_89u8.jpg" alt="" />
             <img className={style.recentlyViewed} src="https://i.etsystatic.com/34040842/r/il/1df8ce/5618353483/il_340x270.5618353483_temq.jpg" alt="" />
           </div>
-
-
         </div>
-
         {/* <div className={style.viewedBlock}>
-
       </div> */}
-
-
       </div>
 
 

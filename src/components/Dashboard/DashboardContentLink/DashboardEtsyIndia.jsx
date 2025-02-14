@@ -5,7 +5,7 @@ export default function DashboardEtsyIndia() {
     <div>
         <div className={style.mainDiv}>    
             <div className={style.EtsyIndia}> 
-            <p> What is Etsy India? </p>
+            <p className={style.EtsyIndiaTextSize}> What is Etsy India? </p>
             <a href="">Read our wonderfully weird story</a>
             </div>
             <div>

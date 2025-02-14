@@ -3,9 +3,6 @@ import style from './AllCategoryBlock.module.css'
 export default function AllCategoryBlock() {
     return (
         <div id={style.shopByCategory}>
-            {/* <div>
-                
-            </div> */}
             <h1>Shop by Category</h1>
             <div className={style.categoryBlock}>                
                 <div>

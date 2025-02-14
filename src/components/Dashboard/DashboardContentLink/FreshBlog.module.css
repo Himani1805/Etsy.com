@@ -72,6 +72,11 @@
 /* Mobile: max 480px */
 
 @media screen and (max-width: 480px) {
+    .freshBlogBlock h1{
+        font-size: x-large;
+        text-align: center;
+        
+    }
     .blogCard {
         display: flex;
         flex-direction: column;
@@ -85,9 +90,9 @@
         flex-wrap: wrap;
 
     }
-
     .blogItem {
         width: 100%;
+        border-radius: 20px;
     }
 
     .fresh_Img img {
