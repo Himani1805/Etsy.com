@@ -1,0 +1,111 @@
+/* src/pages/FavouritesPage.css */
+
+.fav-page {
+  min-height: 100vh;
+  background-color: #f5f5f0;
+  font-family: "Inter", "Montserrat", sans-serif;
+}
+
+.fav-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 40px;
+}
+
+/* Profile section */
+.fav-profile-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.fav-profile-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.fav-profile-info {
+  flex: 1;
+}
+
+.fav-profile-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 6px;
+}
+
+.fav-profile-links {
+  display: flex;
+  gap: 16px;
+}
+
+.fav-profile-links a {
+  font-size: 13px;
+  color: #3d3d9e;
+  text-decoration: none;
+}
+
+.fav-profile-links a:hover {
+  text-decoration: underline;
+}
+
+.fav-updates-btn {
+  padding: 8px 16px;
+  border: 1px solid #222;
+  background: none;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.fav-updates-btn:hover {
+  background-color: rgba(34,34,34,0.05);
+}
+
+/* Empty state */
+.fav-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.fav-empty-icon {
+  font-size: 60px;
+  margin-bottom: 24px;
+  opacity: 0.5;
+}
+
+.fav-empty-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 12px;
+  font-family: "Georgia", serif;
+}
+
+.fav-empty-subtitle {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 300px;
+  margin: 0 auto;
+}

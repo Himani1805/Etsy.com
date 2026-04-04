@@ -1,0 +1,141 @@
+/* src/pages/CartPage.css */
+
+.cart-page {
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", "Montserrat", sans-serif;
+}
+
+.cart-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  flex: 1;
+}
+
+.cart-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+}
+
+.cart-protection-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background-color: #f9f9f9;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 40px;
+}
+
+.cart-protection-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.cart-protection-banner p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cart-link {
+  color: #222;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cart-link:hover {
+  color: #F1641E;
+}
+
+.cart-empty-state {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.cart-empty-text {
+  font-size: 26px;
+  font-weight: 400;
+  color: #222;
+  font-family: "Georgia", serif;
+}
+
+.cart-climate-note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.cart-leaf-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.cart-climate-note p {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+
+/* Footer */
+.cart-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 24px 40px;
+  background-color: #fff;
+}
+
+.cart-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cart-footer-locale {
+  font-size: 13px;
+  color: #555;
+}
+
+.cart-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  font-size: 13px;
+  color: #555;
+}
+
+.cart-footer-links a {
+  color: #555;
+  text-decoration: none;
+}
+
+.cart-footer-links a:hover {
+  text-decoration: underline;
+  color: #222;
+}
+
+.cart-footer-legal {
+  font-size: 12px;
+  color: #888;
+  max-width: 900px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.cart-footer-address {
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+}

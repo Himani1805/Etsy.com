@@ -1,0 +1,95 @@
+/* src/components/GreetingHero/GreetingHero.css */
+
+.greeting-hero {
+  background-color: #FFFFFF;
+  padding: 16px 0 48px; /* Reduced top padding to close gap */
+}
+
+.greeting-hero-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.greeting-text {
+  font-family: "Georgia", "Playfair Display", serif; /* Elegant high-quality Serif font */
+  font-size: 32px;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 36px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.sparkles {
+  font-weight: normal;
+  color: #555;
+  font-size: 28px;
+  vertical-align: middle;
+}
+
+.greeting-categories {
+  display: flex;
+  justify-content: space-around; /* Spreads out beautifully */
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.circle-category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 140px;
+}
+
+.circle-image-wrapper {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%; /* perfectly circular image */
+  border: 1px solid #E1E1E1; /* subtle border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04); /* soft shadow */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+/* Shadow grows slightly when hovered */
+.circle-category-item:hover .circle-image-wrapper {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); 
+  transform: scale(1.02); /* slight pop effect */
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Bold but small font below circle */
+.circle-label {
+  font-family: "Inter", "Montserrat", "Graphik", sans-serif;
+  font-size: 14px;
+  font-weight: 600; 
+  color: #222;
+  text-align: center;
+  line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+  .greeting-categories {
+    justify-content: center;
+    gap: 16px;
+  }
+  .circle-image-wrapper {
+    width: 90px;
+    height: 90px;
+  }
+  .circle-category-item {
+    width: 100px;
+  }
+  .greeting-text {
+    font-size: 24px;
+  }
+}

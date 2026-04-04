@@ -8,40 +8,6 @@ export default function DashboardContent() {
   return (
     <div className={style.dcContainer}>
       <div className={style.dcContainerFirst}>
-        <div className={style.bgGreen}>
-          <h2>Make it personal – shop custom gifts, decor, and on-sale finds now!</h2>
-        </div>
-
-        {/* Categories Section */}
-        <div className={style.categoriesBlock}>
-          <div>
-            <img className={style.img} src="https://i.etsystatic.com/23244419/r/il/256acb/5460344806/il_300x300.5460344806_3962.jpg" />
-            <p> Personalised Gifts</p>
-          </div>
-          <div>
-            <img className={style.img} src="https://i.etsystatic.com/13937228/r/il/2aa962/5720982228/il_300x300.5720982228_3xm5.jpg" />
-            <p> Wall Art</p>
-          </div>
-          <div>
-            <img className={style.img} src=" https://i.etsystatic.com/11651126/c/1999/1999/0/858/il/b8040d/4026650319/il_300x300.4026650319_bhl2.jpg" />
-            <p> Bedding & Blankets</p>
-          </div>
-          <div>
-            <img className={style.img} src="https://i.etsystatic.com/9266327/c/2000/2000/0/0/il/fc0035/5390294661/il_300x300.5390294661_ewbc.jpg" />
-            <p> Jewellery</p>
-          </div>
-          <div>
-            <img className={style.img} src="https://i.etsystatic.com/9353657/r/il/ccdf94/3423095141/il_300x300.3423095141_khth.jpg" />
-            <p> Tees & Jumper</p>
-          </div>
-          <div>
-            <img className={style.img} src="https://i.etsystatic.com/17665462/c/1941/1941/40/330/il/88b0e6/3970877247/il_300x300.3970877247_n9na.jpg" />
-            <p> On Sale</p>
-          </div>
-
-
-        </div>
-
         <div className={style.recentlyBlock}>
           <h2> Recently viewed & more </h2>
           <div>

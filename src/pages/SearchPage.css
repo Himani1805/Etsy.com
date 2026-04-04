@@ -1,0 +1,122 @@
+/* src/pages/SearchPage.css */
+
+.search-page {
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: "Inter", "Montserrat", sans-serif;
+}
+
+.search-results-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 40px;
+}
+
+.search-results-header {
+  margin-bottom: 28px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 16px;
+}
+
+.search-results-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #222;
+}
+
+.search-query-text {
+  font-weight: 700;
+  color: #222;
+}
+
+/* Product grid */
+.search-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.search-product-card {
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.search-product-img-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #f5f5f5;
+}
+
+.search-product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.search-product-card:hover .search-product-img {
+  transform: scale(1.04);
+}
+
+.search-product-info {
+  padding: 10px 4px 8px;
+}
+
+.search-product-seller {
+  font-size: 12px;
+  color: #888;
+  margin: 0 0 4px;
+}
+
+.search-product-title {
+  font-size: 14px;
+  color: #222;
+  font-weight: 500;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+
+.search-product-price-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-product-price {
+  font-size: 15px;
+  font-weight: 700;
+  color: #222;
+}
+
+.search-product-original {
+  font-size: 13px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Empty state */
+.search-empty-state {
+  text-align: center;
+  padding: 80px 24px;
+  font-size: 18px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .search-results-wrapper {
+    padding: 24px 16px;
+  }
+  .search-results-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}

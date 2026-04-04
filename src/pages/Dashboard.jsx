@@ -1,17 +1,16 @@
 import React from 'react'
 import style from './Dashboard.module.css'
-import Navbar from '../components/Navbar/Navbar'
-import Header from '../components/Header/Header'
+import EtsyHeader from '../components/EtsyHeader/EtsyHeader'
+import GreetingHero from '../components/GreetingHero/GreetingHero'
 import Footer from '../components/Footer/Footer'
 import DashboardContent from '../components/Dashboard/DashboardContent'
 export default function Dashboard() {
   return (
     <div>
-      <Header />
-      <Navbar />
+      <EtsyHeader />
+      <GreetingHero />
       <DashboardContent />
       <Footer />
-
     </div>
   )
 }
