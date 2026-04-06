@@ -29,7 +29,10 @@ export default function Footer() {
                 <li><a href="#">Gift cards</a></li>
                 <li><a href="#">Etsy Registry</a></li>
                 <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Etsy Blog</a></li>
+                <li><a href="#">Etsy blog</a></li>
+                <li><a href="#">Etsy United Kingdom</a></li>
+                <li><a href="#">Etsy Germany</a></li>
+                <li><a href="#">Etsy Canada</a></li>
               </ul>
             </div>
             <div>
@@ -38,7 +41,7 @@ export default function Footer() {
                 <li><a href="#">Sell on Etsy</a></li>
                 <li><a href="#">Teams</a></li>
                 <li><a href="#">Forums</a></li>
-                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Affiliates &amp; Creators</a></li>
               </ul>
             </div>
             <div>
@@ -48,6 +51,9 @@ export default function Footer() {
                 <li><a href="#">Policies</a></li>
                 <li><a href="#">Investors</a></li>
                 <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Impact</a></li>
+                <li><a href="#">Legal imprint</a></li>
               </ul>
             </div>
             <div className={style.helpSocialCol}>
@@ -57,27 +63,29 @@ export default function Footer() {
                 <li><a href="#">Privacy settings</a></li>
               </ul>
               <div className={style.socialIcons}>
-                <img src="/Logo_Esty/insta.svg" alt="" width={24} />
-                <img src="/Logo_Esty/facebook.svg" alt="" width={24} />
-                <img src="/Logo_Esty/pinterest.svg" alt="" width={24} />
-                <img src="/Logo_Esty/youtube.svg" alt="" width={24} />
+                <img src="/Logo_Esty/insta.svg" alt="Instagram" width={24} />
+                <img src="/Logo_Esty/facebook.svg" alt="Facebook" width={24} />
+                <img src="/Logo_Esty/pinterest.svg" alt="Pinterest" width={24} />
+                <img src="/Logo_Esty/youtube.svg" alt="YouTube" width={24} />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* 3. Bottom Black Bar */}
+      {/* 3. Bottom Bar */}
       <div className={style.etsyIndia}>
         <button className={style.btnLang}>
           <img src="https://cdn-icons-png.flaticon.com/128/9906/9906480.png" alt="India Flag" width={24} className={style.flagIcon} />
-          <span>India | English (IN) | ₹(INR)</span>
+          <span>India &nbsp;|&nbsp; English (IN) &nbsp;|&nbsp; ₹ (INR)</span>
         </button>
         <div className={style.copyRight}>
           <span>© 2026 Etsy, Inc.</span>
           <a href="#">Terms of Use</a>
           <a href="#">Privacy</a>
           <a href="#">Interest-based ads</a>
+          <a href="#">Local Shops</a>
+          <a href="#">Regions</a>
         </div>
       </div>
     </div>

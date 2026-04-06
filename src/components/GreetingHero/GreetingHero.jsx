@@ -1,7 +1,11 @@
 import React from 'react';
 import './GreetingHero.css';
+import { useUser } from '../../context/UserContext';
 
 export default function GreetingHero() {
+  // Read the logged-in user's name from context — this updates automatically when the user changes
+  const { user } = useUser();
+
   // This section maps through our category data to show these circular buttons, making it easy for the user to jump into a specific shop.
   const categories = [
     { name: "Personalised Gifts", image: "https://i.etsystatic.com/23244419/r/il/256acb/5460344806/il_300x300.5460344806_3962.jpg" },
@@ -16,7 +20,7 @@ export default function GreetingHero() {
     <section className="greeting-hero">
       <div className="greeting-hero-wrapper">
         <h1 className="greeting-text">
-          Himani, take a break and browse your picks <span className="sparkles">* ° . * . °</span>
+          {user.name}, take a break and browse your picks <span className="sparkles">* ° . * . °</span>
         </h1>
         
         <div className="greeting-categories">
