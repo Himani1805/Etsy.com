@@ -76,7 +76,7 @@ export default function Footer() {
       {/* 3. Bottom Bar */}
       <div className={style.etsyIndia}>
         <button className={style.btnLang}>
-          <img src="https://cdn-icons-png.flaticon.com/128/9906/9906480.png" alt="India Flag" width={24} className={style.flagIcon} />
+          <img src="https://cdn-icons-png.flaticon.com/128/9906/9906480.png" alt="India Flag" width={20} className={style.flagIcon} />
           <span>India &nbsp;|&nbsp; English (IN) &nbsp;|&nbsp; ₹ (INR)</span>
         </button>
         <div className={style.copyRight}>

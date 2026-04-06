@@ -56,10 +56,11 @@
 }
 
 .shortText {
-    text-decoration: underline dotted;
+    text-decoration:underline dashed;
     font-size: 15px; /* Increased from 14px */
     font-weight: 500;
     margin: 0;
+    text-underline-offset: 5px;
 }
 
 .etsySlogan img{
@@ -69,7 +70,7 @@
 /* Section 3: Main Footer */
 .menuEtsyDiv {
     background-color: #4D325E; /* Main Purple section */
-    padding: 60px 40px;
+    padding: 40px;
     display: flex;
     justify-content: center;
 }
@@ -89,7 +90,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
 .orangeLogoBox {
@@ -108,10 +109,11 @@
 }
 
 .downloadBtn {
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.8); /* Re-adding fine border from Screenshot 2 */
+    background: #686e8f;
+    border: none; 
     color: white;
-    padding: 10px 22px;
+    font-weight: extrabold;
+    padding: 14px 24px;
     border-radius: 30px;
     font-weight: 500;
     font-size: 14px;
@@ -121,7 +123,7 @@
 }
 
 .downloadBtn:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: #686e8f;
 }
 
 .footerMenuLinks {
