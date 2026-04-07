@@ -73,23 +73,35 @@
     color: #222;
 }
 
-.recentlyGrid {
+/* .recentlyGrid {
     display: flex;
     gap: 15px;
     width: max-content;
     min-width: max-content;
     margin-bottom: 40px;
     padding: 5px 0;
+} */
+
+.recentlyGrid {
+    display: flex;
+    gap: 15px;
+    /* width: max-content; ko hata do, ye scroll-content handle karega */
+    padding: 10px 0;
+    flex-wrap: nowrap; /* Ye ensure karega ki items ek hi line mein rahein */
 }
 
-.featuredCard {
+.featuredCard, .productCard {
+    flex-shrink: 0; /* Sabse important! Isse card chote nahi honge aur scroll aayega */
+}
+
+/* .featuredCard {
     position: relative;
-    flex: 0 0 320px; /* Large featured card width */
+    flex: 0 0 320px; 
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
     min-height: 320px;
-}
+} */
 
 .featuredImg {
     width: 100%;
@@ -120,12 +132,12 @@
     text-decoration: underline;
 }
 
-.productCard {
+/* .productCard {
     flex: 0 0 220px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
-}
+} */
 
 .productCard img {
     width: 100%;

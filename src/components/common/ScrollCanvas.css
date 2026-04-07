@@ -1,4 +1,4 @@
-.scroll-canvas-wrapper {
+/* .scroll-canvas-wrapper {
   border: 2px solid red;
   position: relative;
   width: 100%;
@@ -6,9 +6,28 @@
   overflow: hidden;
   box-sizing: border-box;
   padding: 0 14px;
+} */
+.scroll-canvas-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: visible; /* Taaki arrows jo bahar nikal rahe hain wo dikhein */
 }
 
 .scroll-content {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  overflow-x: auto; /* Scroll yahan se aata hai */
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE */
+}
+
+.scroll-content::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* .scroll-content {
   display: flex;
   border: 2px solid green;
   flex-direction: row;
@@ -20,7 +39,7 @@
   scroll-behavior: smooth;
   min-height: 220px;
   max-width: 100%;
-}
+} */
 
 .scroll-content > * {
   flex: 0 0 auto;
